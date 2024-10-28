@@ -31,7 +31,7 @@ body {
 
 @keyframes fillAndTilt {
     0% { transform: translateX(-50%) rotate(-20deg); }          /* 初始状态：左端高于水平线20度 */
-    96% { transform: translateX(-50%) rotate(30deg); }          /* 缓慢下沉至左端低30度 */
+    92% { transform: translateX(-50%) rotate(30deg); }          /* 缓慢下沉至左端低30度 */
     97% { transform: translateX(-50%) rotate(-20deg); }         /* 立即回弹至初始状态 */
     100% { transform: translateX(-50%) rotate(-20deg); }        /* 保持初始状态 */
 }
